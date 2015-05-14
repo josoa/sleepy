@@ -4,41 +4,49 @@
 	<meta charset="UTF-8">
 	<title>Bangarang</title>
 	
+
+	<link rel="stylesheet" href="css/normalize.css">
 	<link href='http://fonts.googleapis.com/css?family=Devonshire|Sumana:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-	<header>
-		<h1>hullo</h1>
-		<nav>
-			<ul>
+<article>
+	<header _col="1" class="group" id="top">
+		<h1 _col="1/4">hullo</h1>
+		<nav _col="1/2 right">
+			<ul _col="1/3">
 				<li><a href="#top">top</a></li>
 				<li><a href="#about">about</a></li>
 				<li><a href="#cake">cake</a></li>
 			</ul>
-			<ul>
+
+			<ul _col="1/3">
 				<li><a href="#art">art</a></li>
 				<li><a href="#design">design</a></li>
 				<li><a href="#writing">writing</a></li>
 			</ul>
+		
+			<button _col="1/3">
+				talk to me
+			</button>
 		</nav>
-
-		<button>
-			talk to me
-		</button>
 	</header>
 
-	<section>
-		<div>
+	<div class="fill"></div>
+				
+	<section class="group"  id="about" _col="1">
+		<div class="zag"></div>
+		<div _col="1/2">
 			<h1>about</h1>
 			<p>Disrupt Portland next level, Godard vinyl freegan pickled street art Tumblr Bushwick swag.  XOXO crucifix you probably haven't heard of them slow-carb salvia, taxidermy retro banh mi leggings Echo Park Odd Future.  Vinyl put a bird on it paleo plaid jean shorts, food truck drinking vinegar Marfa.  Fashion axe cray craft beer single-origin coffee American Apparel trust fund, try-hard gastropub.  +1 direct trade  Helvetica Kickstarter American Apparel ugh, lo-fi authentic mumblecore whatever.  Leggings twee Thundercats, plaid raw denim Brooklyn food truck.  Twee shabby chic squid, cardigan sartorial leggings crucifix Brooklyn readymade Banksy church-key hashtag mumblecore meditation.</p>
 		</div>
-		<div>
-			<img src="img/bike.jpg" alt="">
-			<p><em>Bikes</em> // take a ride downtown</p>
+		<div _col="1/2">
+			<img src="img/bike.jpg" alt="bike">
+			<caption><em>Bikes</em> // take a ride downtown</caption>
 		</div>
 	</section>
 	
+</article>
 </body>
 </html>
