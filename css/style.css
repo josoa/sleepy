@@ -61,6 +61,21 @@ header {
 	z-index: 999;
 }
 
+#about {
+	padding: 15px 0;
+	position: relative;
+}
+
+img {
+	position: relative;
+}
+
+img + p {
+	position: absolute;
+	bottom: 50%;
+	right: 0;
+}
+
 /* shape */
 
 .zag {
@@ -85,9 +100,16 @@ header {
 
 #about {
 	background-color: #0ff;
-	padding: 15px 0;
-	position: relative;
 
+}
+
+header {
+	background: #fff;
+}
+
+img + p {
+	background: #fff;
+	opacity: .7;
 }
 
 /* button */
@@ -109,6 +131,7 @@ body {
 h1 {
 	font-family: 'Devonshire', cursive;
 	font-size: 4.2em;
+	margin: 0;
 }
 
 p {
